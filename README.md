@@ -1,26 +1,66 @@
-# Task 3: Basic Vulnerability Scan Report
+#  Nessus Vulnerability Scan 
 
-##  Tool Used
-**Tenable Nessus Essentials** (Advanced Scan)
+This project documents my hands-on experience using **Tenable Nessus Essentials** to perform a basic vulnerability scan on my local machine as part of a cybersecurity learning journey.
 
-##  Target
-Local machine (IP: 192.168.1.11)
-
-##  Scan Date & Time
-May 29, 2025 — Completed between 8:41 PM and 8:45 PM
+---
 
 ##  Objective
-Identify security vulnerabilities on the local machine using Nessus.
 
-## Findings
-> No vulnerabilities were detected during the scan.
+- Use Nessus Essentials to scan a local system.
+- Identify known vulnerabilities.
+- Analyze and document results.
+- Compare past and current scan outcomes.
 
-This result indicates that the system is well-patched and not exposing any known critical risks at the time of scanning.
+---
 
-## Files Included
-- `My_Local_Machine_Report.html` – Exported Nessus scan report
-- `Nessus_Vulnerability_Scan_Report.md` – Markdown summary
-- Screenshots (if any)
+##  Tools Used
 
-##  Reflection
-This task demonstrates the importance of routine vulnerability assessments. Even if no issues are found, it helps validate security posture and reinforces a proactive approach to cyber hygiene.
+-  [Nessus Essentials](https://www.tenable.com/products/nessus/nessus-essentials)
+-  Windows 10 Local Machine
+-  Screenshots and HTML reports for documentation
+
+---
+
+##  Screenshots
+
+| Step | Description | Screenshot |
+|------|-------------|------------|
+| 1 | Advanced Scan Template | ![](./screenshots/Screenshot%202025-05-29%20203353.png) |
+| 2 | Scan Configuration | ![](./screenshots/Screenshot%202025-05-29%20203812.png) |
+| 3 | Scan Running | ![](./screenshots/Screenshot%202025-05-29%20204107.png) |
+| 4 | Scan Completed | ![](./screenshots/Screenshot%202025-05-29%20204222.png) |
+| 5 | Report Exported | ![](./screenshots/Screenshot%202025-05-29%20204511.png) |
+
+---
+
+##  Scan Reports
+
+| Date       | Result         | Notes |
+|------------|----------------|-------|
+| **April 2025** | ✅ Vulnerabilities found | Detected some medium-severity issues. See `basic scan_5nrsza.html`. |
+| **May 2025**   | ❌ No vulnerabilities | System likely patched OR Nessus Essentials scan quota reached. See `My Local Machine_g553b0.html`. |
+
+ Reports:
+- [`basic scan_5nrsza.html`](./reports/basic%20scan_5nrsza.html)
+- [`My Local Machine_g553b0.html`](./reports/My%20Local%20Machine_g553b0.html)
+
+---
+
+##  Observations & Learnings
+
+- Running vulnerability scans regularly helps monitor system health.
+- Nessus reports detail vulnerabilities with CVSS scores and plugin info.
+- The Essentials license has a limited IP scan quota (16 IPs).
+- Patch management or plugin expiration may influence scan results.
+
+---
+
+##  Next Steps
+
+- Try authenticated scanning for deeper results.
+- Use additional tools like OpenVAS or Burp Suite.
+- Explore automation via Nessus CLI or API.
+
+---
+
+> 📌 *This project is part of my cybersecurity learning path focused on threat detection and vulnerability management.*
