@@ -25,11 +25,11 @@ This project documents my hands-on experience using **Tenable Nessus Essentials*
 
 | Step | Description | Screenshot |
 |------|-------------|------------|
-| 1 | Advanced Scan Template | ![](./screenshots/Screenshot%202025-05-29%20203353.png) |
+| 1 | Advanced Scan Template | ![](./screenshots/Screenshot%202025-05-29%20203812.png) |
 | 2 | Scan Configuration | ![](./screenshots/Screenshot%202025-05-29%20203812.png) |
-| 3 | Scan Running | ![](./screenshots/Screenshot%202025-05-29%20204107.png) |
-| 4 | Scan Completed | ![](./screenshots/Screenshot%202025-05-29%20204222.png) |
-| 5 | Report Exported | ![](./screenshots/Screenshot%202025-05-29%20204511.png) |
+| 3 | Scan Running | ![](./screenshots/Screenshot%202025-05-29%20204222.png) |
+| 4 | Scan Completed | ![](./screenshots/Screenshot%202025-05-29%20204511.png) |
+| 5 | Report Exported | ![](./screenshots/Screenshot%202025-05-29%20213139.png) |
 
 ---
 
