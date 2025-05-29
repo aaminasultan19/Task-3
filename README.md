@@ -42,7 +42,7 @@ This project documents my hands-on experience using **Tenable Nessus Essentials*
 
  Reports:
 - [`basic scan_5nrsza.html`](./basic%20scan_5nrsza.html)
-- [`My Local Machine_g553b0.html`](/My%20Local%20Machine_g553b0.html)
+- [`My Local Machine_g553b0.html`](./My%20Local%20Machine_g553b0.html)
 
 ---
 
